@@ -1,0 +1,114 @@
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .header-title {
+    margin: 0;
+  }
+  
+  .header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .main {
+    margin-top: 1.5rem;
+  }
+  
+  .time-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+  }
+  
+  .time {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  
+  .conversions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .conversions .conversion-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .conversions .conversion-form input[type="number"] {
+    width: 150px;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .conversions .conversion-form select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: white;
+    appearance: none;
+  }
+  
+  .conversions .btc-value {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .exchange-rates {
+    margin-top: 1rem;
+  }
+  
+  .rates-title {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .sort-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .rates-table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .rates-table th,
+  .rates-table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .rates-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .rates-table td {
+    text-align: right;
+  }
+
+  header {
+    color: blue;
+    font-size: large;
+    font-weight: bold;
+  }
+  
